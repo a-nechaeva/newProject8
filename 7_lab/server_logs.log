@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-29T18:03:21.130002900Z</date>
+  <millis>1693332201130</millis>
+  <nanos>2900</nanos>
+  <sequence>0</sequence>
+  <logger>itmo.lab6.server.ServerLogger</logger>
+  <level>INFO</level>
+  <class>itmo.lab6.server.UdpServer</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Starting server on port 1611</message>
+</record>
+<record>
+  <date>2023-08-29T18:03:39.830968700Z</date>
+  <millis>1693332219830</millis>
+  <nanos>968700</nanos>
+  <sequence>1</sequence>
+  <logger>itmo.lab6.server.ServerLogger</logger>
+  <level>INFO</level>
+  <class>itmo.lab6.commands.CommandHandler</class>
+  <method>handlePacket</method>
+  <thread>24</thread>
+  <message>Received command SERVICE from null</message>
+</record>
+</log>
